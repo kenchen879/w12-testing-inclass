@@ -1,8 +1,7 @@
 export class Game {
-  roll(arg0: number) {
-    throw new Error('Method not implemented.');
-  }
+  roll(arg0: number) {}
   get score() {
-    return -1;
+    // return 0 就會形成第一個綠燈
+    return 0;
   }
 }
