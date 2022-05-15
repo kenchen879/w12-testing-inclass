@@ -1,5 +1,4 @@
 import { Game } from './game';
-import '@types/jest';
 
 describe('Game', () => {
   // Game it should create an instance
