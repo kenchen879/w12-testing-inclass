@@ -1,7 +1,9 @@
 export class Game {
-  roll(arg0: number) {}
+  private _score = 0
+  roll(pins: number) {
+    this._score += pins;
+  }
   get score() {
-    // return 0 就會形成第一個綠燈
-    return 0;
+    return this._score;
   }
 }
