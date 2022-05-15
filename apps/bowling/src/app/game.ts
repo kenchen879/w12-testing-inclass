@@ -1,7 +1,7 @@
-// game.ts
 export class Game {
-  roll(pins: number) {}
-
+  roll(arg0: number) {
+    throw new Error('Method not implemented.');
+  }
   get score() {
     return -1;
   }
