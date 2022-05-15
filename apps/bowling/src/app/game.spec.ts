@@ -37,6 +37,11 @@ describe('Game', () => {
     rollMany(17, 0);
     expect(game.score).toBe(24);
   });
+
+  test('perfect game', () => {
+    rollMany(12, 10);
+    expect(game.score).toBe(300);
+  });
   
   const rollMany = ((n: number, pins: number) => {
     for (let i = 0; i < n; i++) {
