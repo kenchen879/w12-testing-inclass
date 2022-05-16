@@ -1,6 +1,9 @@
-
-
 # W12Testing
+
+## 助教 Kata-potter 在下列的網址
+
+雲原生軟體開發 week12 Homework -- Kata-potter:
+前往連結: <https://github.com/kenchen879/kata-potter>
 
 This project was generated using [Nx](https://nx.dev).
 
